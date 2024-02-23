@@ -9,6 +9,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 const PORT=4000;
+console.log("hello")
 app.use("/",empInfoRoute);
 app.use("/",sheetRoute);
  
